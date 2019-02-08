@@ -1,5 +1,6 @@
 defmodule App do
   def demo() do
+    IO.puts "Writing demo image to file..."
     small(-2.6, 1.2, 1.2)
   end
   def small(x0, y0, xn) do

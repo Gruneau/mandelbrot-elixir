@@ -22,7 +22,6 @@ defmodule PPM do
   end
   defp row(row) do
     List.foldr(row, [], fn({r, g, b}, a) ->
-      IO.puts "#{r} #{g} #{b}"
       [trunc(r), trunc(g), trunc(b) | a]
     end)
   end
