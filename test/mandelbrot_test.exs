@@ -2,7 +2,7 @@ defmodule MandelbrotTest do
   use ExUnit.Case
   doctest Mandelbrot
 
-  test "greets the world" do
-    assert Mandelbrot.hello() == :world
+  test "the truth" do
+    assert true == true
   end
 end

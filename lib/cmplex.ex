@@ -1,4 +1,4 @@
-defmodule Cmplex do
+defmodule Cmplx do
   def new(r, i) do
     {r, i}
   end
@@ -10,7 +10,8 @@ defmodule Cmplex do
     im = 2*(r*i)
     {real, im}
   end
-  def abs({r, i}) do
+  def abs({r, i} = z) do
+    IO.inspect z
     :math.sqrt((r*r)+(i*i))
   end
 end
