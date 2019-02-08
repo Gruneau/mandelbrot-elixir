@@ -1,21 +1,13 @@
 # Mandelbrot
 
-**TODO: Add description**
+Simple mandelbrot image generator.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mandelbrot` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:mandelbrot, "~> 0.1.0"}
-  ]
-end
+Usage: 
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/mandelbrot](https://hexdocs.pm/mandelbrot).
+$ iex -S mix
+> App.demo
+> ...
+> :ok
+```
+Demo image will be generated "small.ppm" under root project dir.
 
